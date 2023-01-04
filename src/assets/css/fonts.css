@@ -1,0 +1,36 @@
+/*<!----------MONTSERRAT----------!>*/
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat'), url('../../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat'), url('../../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat'), url('../../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat'), url('../../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+/*<!----------PT Root UI----------!>*/
+@font-face {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Root UI'), url('../../fonts/PT_Root_UI/PT-Root-UI_Regular.ttf') format('truetype');
+}

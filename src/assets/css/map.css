@@ -1,0 +1,140 @@
+.map-svg path {
+  transition: all .5s;
+  fill: #9AACC8;
+  stroke: rgba(255, 255, 255);
+}
+
+.map-svg .hasOffice {
+  cursor: grab;
+}
+
+@media screen and (max-width: 991px) {
+  .map-svg {
+    right: -10%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .map-svg {
+    right: -20%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-svg {
+    right: -40%;
+    position: relative;
+  }
+
+  .map-wrapper {
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .map-svg {
+    right: -60%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .map-svg {
+    right: -80%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-svg {
+    right: -120%;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .map-svg {
+    right: -180%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .map-svg {
+    right: -230%;
+    position: relative;
+  }
+}
+
+#RU-KGD, #RU-ARK, #RU-MUR, #RU-LEN, #RU-TVE, #RU-MOS, #RU-TUL, #RU-RYA, #RU-VLA, #RU-IVA, #RU-KRS, #RU-BEL, #RU-KDA, #RU-ROS, #RU-VGG, #RU-STA, #RU-NIZ, #RU-CU, #RU-ME, #RU-TA, #RU-SAM, #RU-ORE, #RU-UD, #RU-CHE, #RU-PER, #RU-SVE, #RU-TYU, #RU-OMS, #RU-NVS, #RU-ARK, #RU-KO, #RU-KHM, #RU-YAN, #RU-KK, #RU-KYA, #RU-BU {
+  fill: #1F3355;
+}
+
+.indicator {
+  position: absolute;
+  display: inline;
+  background: linear-gradient(87.21deg, #0E184B -0.69%, #000000 -0.68%, #385E9C 97.68%);
+  color: white;
+  padding: 15px 20px;
+  display: none;
+  max-width: 330px;
+  width: 100%;
+}
+
+.indicator-flex {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.indicator-img {
+  margin-right: 8px;
+}
+
+.indicator-name {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.indicator-flex {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.flag {
+  width: 80px;
+}
+
+.clear {
+  clear: both
+}
+
+.name {
+  float: left;
+  margin-right: 30px;
+}
+
+/*.flag{position:absolute;top:10px;right:20px;border:3px solid #f7ffe8;border-radius:3px;
+}*/
+
+.regs {
+  columns: 5;
+  padding: 10px;
+}
+
+.reg span {
+  font-size: 10px;
+}
+
+.regs div {
+  width: auto;
+  font-size: 14px;
+  /* columns: 3;*/
+  cursor: pointer;
+}
+
+.capital {
+  clear: both;
+}
