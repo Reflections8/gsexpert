@@ -51,4 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     animationOnScroll()
   }
+
+  AOS.init()
+
 })
